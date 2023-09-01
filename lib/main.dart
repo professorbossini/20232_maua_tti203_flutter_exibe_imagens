@@ -6,6 +6,9 @@ void main() {
       appBar: AppBar(
         title: const Text('Minhas imagens'),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => print("ok"),
+      ),
     ),
   );
   runApp(app);
