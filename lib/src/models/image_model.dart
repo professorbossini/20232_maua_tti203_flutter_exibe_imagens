@@ -8,4 +8,9 @@ class ImageModel {
     alt = decodedJSON['photos'][0]['alt'];
     url = decodedJSON['photos'][0]['src']['medium'];
   }
+
+  @override
+  String toString() {
+    return 'alt: $alt, url: $url';
+  }
 }
